@@ -95,4 +95,20 @@ body{
     border-left: solid 3px white;
 }
 
+.corpoGrafico{
+    width: 100vw;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
 
+.grafico{
+    margin-top: 2rem;
+    padding: 100px;
+    width: 65vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
