@@ -32,6 +32,34 @@
             </div>
         </div>
 
+        <div class="corpoFiltro">
+            <div class="caixaSel">
+                <select id="sel_filtroM">
+                    <option value=""> -- Modalidade --</option>
+                    <option value=""> Crawl </option>
+                    <option value=""> Costas </option>
+                    <option value=""> Peito </option>
+                    <option value=""> Borboleta </option>
+                </select>
+
+                <select id="sel_filtroC">
+                    <option value=""> -- Categoria --</option>
+                    <option value=""> Infantil </option>
+                    <option value=""> Juvenil </option>
+                    <option value=""> Junior </option>
+                    <option value=""> Infanto-Juvenil </option>
+                    <option value=""> Junior-Sênior </option>
+
+                </select>
+            </div>
+
+            <div class="caixaIn">
+                <input type="text" id="in_filtro" placeholder="Filtrar nome">
+                <button onclick="filtrar()">Filtrar</button>
+            </div>
+        </div>
+
+
         <table>
             <thead>
                 <tr>

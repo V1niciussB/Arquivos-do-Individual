@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(230, 230, 230);
+    background-color: #e6e6e6;
     overflow: hidden;
   
 }
@@ -17,7 +17,6 @@ body{
     justify-content: flex-start;
     height: 100vh;
     width: 100vw;
-    background-color: #00ccff;
 }
 
 .box1{
@@ -103,13 +102,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(0, 0, 39);
+    background-color: #002a4b;
     gap: 1.5rem;
 }
 
 .grafico{
     width: 42vw;
-    background-color: rgb(167, 167, 167);
+    background-color: #ccebff;
     border-radius: 30px;
 }
 

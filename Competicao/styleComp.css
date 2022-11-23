@@ -94,6 +94,63 @@ body {
     border-left: solid 3px white;
 }
 
+.corpoFiltro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 69vw;
+}
+
+select{
+    padding: 1rem;
+    border: none;
+    padding: .4rem;
+    border-radius: 8px;
+    outline: 1px solid #000D1D;
+    transition: .1s ease;
+    text-align: center;
+    font-family: 'Poppins';
+}
+select:hover{
+    cursor: pointer;
+}
+
+
+input{
+    width: 7rem;
+    border: none;
+    padding: .3rem;
+    border-radius: 8px;
+    outline: 1px solid #000D1D;
+    transition: .1s ease;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+input:focus{
+    outline: 1px solid #00c8ff;
+}
+
+button{
+    background-color:#000D1D;
+    margin: 1rem 0;
+    color: white;
+    border: none;
+    padding: .4rem;
+    border-radius: 8px;
+    transition: .1s ease;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+
+button:hover{
+    background-color: #00c8ff;
+    cursor: pointer;
+}
+
+
 table {
     width: 70vw;
 }
